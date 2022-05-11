@@ -54,7 +54,7 @@ type rom_type is array(0 to 256) of std_logic_vector(15 downto 0);
 signal rom: rom_type := (
 -- program
 -- r <- (a+b)x2 - (c-d)/2 + 5;
--- if(r == 40) then
+-- if(r == 31) then
 --     return 1;
 -- else return 0;
 
